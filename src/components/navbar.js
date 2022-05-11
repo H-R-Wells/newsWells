@@ -1,11 +1,11 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import hrwells from "./hrwells.jpg";
 
 
 
 export class Navbar extends Component {
-    static propTypes = {}
+    // static propTypes = {}
 
     render() {
         return (
@@ -47,7 +47,7 @@ export class Navbar extends Component {
                                 {/* <!-- SVG --> */}
                                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                     <div className="flex-shrink-0 flex items-center">
-                                        <span className="lg:hidden text-white px-3  text-lg font-medium">To-Do List</span>
+                                        <span className="lg:hidden text-white px-3  text-lg font-medium">newsWells</span>
 
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full bg-violet-400">
                                             <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px">
@@ -63,17 +63,21 @@ export class Navbar extends Component {
 
                                     <div className="hidden sm:block sm:ml-6">
                                         <div className="flex space-x-4">
-                                            <a href="/" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-                                                aria-current="page">MDFK News</a>
+                                            <button className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">
+                                                MDFK News
+                                                </button>
 
-                                            <a href="/"
-                                                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                                            <button className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                               About
+                                                </button>
 
-                                            <a href="/"
-                                                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                                                <button className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                               Projects
+                                                </button>
 
-                                            <a href="/"
-                                                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                                                <button className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                               Contact
+                                                </button>
                                         </div>
                                     </div>
 
