@@ -9,7 +9,7 @@ export class Navbar extends Component {
 
     render() {
         return (
-            <div>
+            <div className='sticky top-0 z-50'>
                 <div>
                     {/* <!-- Navigation tab --> */}
                     <nav id="navb" className="bg-gray-800 sticky top-0 z-50">
